@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="neo4j_0/src"/>
+	<classpathentry kind="src" path="neo4j_with_maven/src/main/java"/>
+	<classpathentry kind="lib" path="drivers_neo4j/neo4j-java-driver-4.2.7.jar"/>
+	<classpathentry kind="lib" path="neo4j_with_maven/target/noe4j_1-1.0-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="neo4j_with_maven/target/classes"/>
+</classpath>
