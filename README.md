@@ -12,7 +12,8 @@ Ce git regroupe de projet d'application Java :
 ## Pré-requis :
 
 - Java JDK 1.8 [impératif] avec Ecplise 2021 [min.] ou Netbeans 8 [min.]
-- Neo4j Desktop avec une BDD 3.5.28 [impératif]
+- Neo4j Desktop avec une BDD 3.5.28 [impératif] :
+	- Il y a une présentation et un guide dans le dossier **guide_neo4j**
 
 ## Via Netbeans 8 - Ouvrir les projets
 
@@ -63,6 +64,10 @@ Il est possible de faire un import de tous projet via **Fichier**, puis **Import
 
 <img width="400px" src="_images_du_readme/02.png">
 
+## Aide requète Cypher
+
+Source Memento Cypher Online : [ici](https://neo4j.com/docs/cypher-refcard/current/)
+
 ## Arborescence du git
 
 ```
@@ -74,9 +79,14 @@ Il est possible de faire un import de tous projet via **Fichier**, puis **Import
 │   ├── 03.png
 │   ├── 04.png
 │   ├── 05.png
-│   └── 06.png
+│   ├── 06.png
+│   └── 07.png
 ├── drivers_neo4j
 │   └── neo4j-java-driver-4.2.7.jar
+├── guide_neo4j
+│   ├── 1_Presentation.pdf
+│   ├── 2_Installation_Neo4j_Desktop.pdf
+│   └── 2_Installation_Neo4j_Via_Docker.pdf
 ├── neo4j_0
 │   ├── build.xml
 │   ├── manifest.mf
@@ -119,5 +129,5 @@ Il est possible de faire un import de tous projet via **Fichier**, puis **Import
         ├── surefire
         └── test-classes
 
-27 directories, 25 files
+28 directories, 29 files
 ```
